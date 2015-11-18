@@ -56,7 +56,11 @@ roi_ave will be saved in the directory 'rois' and it will have all of your ROI t
 
 ![ScreenShot](SW_im2.png)
 
-5. To eleminate 'bad' frames semi-automatically, run:
+==========================================================
+
+## OPTIONAL CODE
+
+I. To eleminate 'bad' frames semi-automatically, run:
 
 >> SM_ProcessROIS
 
