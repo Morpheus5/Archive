@@ -35,6 +35,9 @@ Then, create your ROI mask:
 This will open up a GUI to select ROIs from the image you picked. just point over an ROI, click on one you want, drag the mouse out so you get the right size, then unclick your mouse. Then DOUBLE CLICK on the ring you made. it should turn yellow. then you can drag/move the ring over to make another selection.  You can add/move as many ROIs as you want. when you are done, just exit out of the GUI. It will save all your ROIS, and number them...
 
 
+![ScreenShot](ROImap.png)
+
+
 
 Then, go into the new 'roi_image' directory and load ROI masks into MATLAB...
 
