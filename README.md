@@ -59,10 +59,13 @@ roi_ave will be saved in the directory 'rois' and it will have all of your ROI t
 ```
 >> figure(); plot(roi_ave.interp_dff(:,:,1)) % interpolated df/f
 ```
+
 ![ScreenShot](SW_im1.png)
 
-```>> figure(); plot(roi_ave.raw{1}) % raw signal
 ```
+>> figure(); plot(roi_ave.raw{1}) % raw signal
+```
+
 ![ScreenShot](SW_im2.png)
 
 ==========================================================
@@ -70,7 +73,10 @@ roi_ave will be saved in the directory 'rois' and it will have all of your ROI t
 ## OPTIONAL CODE
 
 I. To eleminate 'bad' frames semi-automatically, run:
+
 ```
->> SM_ProcessROIS
+SM_ProcessROIS
 ```
+
+
 ...This will eliminate bad frames ( where the light turned on/off early) from the videos, that may interfere with calculating SNR.
