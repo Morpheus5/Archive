@@ -23,6 +23,7 @@ load the Dff_composite image into MATLAB:
 >> IMAGE = imread('Dff_composite');
 
 ...Or, if you want to just take an ROI mask from one particular image:
+
 >> IMAGE = imread('CaptureSession'); % or whatever you name you file...
 
 
@@ -36,10 +37,12 @@ This will open up a GUI to select ROIs from the image you picked. just point ove
 
 
 Then, go into the new 'roi_image' directory and load ROI masks into MATLAB...
+
 >> load('roi_data_image.mat')
 
 
 To extract ROIS from your movies, go back into the .mat directory, and run:
+
 >> roi_ave= FS_plot_roi2(ROI);
 
 
@@ -52,6 +55,7 @@ roi_ave will be saved in the directory 'rois' and it will have all of your ROI t
 
 ![ScreenShot](SW_im2.png)
 5. To eleminate 'bad' frames semi-automatically, run:
+
 >> SM_ProcessROIS
 
 ...This will eliminate bad frames ( where the light turned on/off early) from the videos, that may interfere with calculating SNR.
