@@ -3,7 +3,7 @@ Archived code- original edit
 
 
 
-1. Log each .tif file from each recording session in  a dedicated directory for each session. i.e. store each animal in a separate directory ( I typically have a subfolder for each day of imaging.)
+1. Log each .tif/.tiff file from each recording session in  a dedicated directory for each session. i.e. store each animal in a separate directory ( I typically have a subfolder for each day of imaging.)
 
 
 2. When you are done for the day/session, open the directory you made in the last step in matlab, and run SM_Parse. This will separate video blocks in .m files ( so its easy to manipulate in matlab)
@@ -72,7 +72,7 @@ roi_ave will be saved in the directory 'rois' and it will have all of your ROI t
 
 ## OPTIONAL CODE
 
-I. To eleminate 'bad' frames semi-automatically, run:
+I. To eliminate 'bad' frames semi-automatically, run:
 
 ```
 SM_ProcessROIS
